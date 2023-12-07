@@ -1,0 +1,57 @@
+h1{
+    color: rgb(138, 38, 38);
+    text-align: center;
+    font-size: 7rem;
+    /* 1rem=16px */
+    opacity: 0.5;
+    /* transparency range varries from 0-1 and opacity attribute
+    is used to blurr the content  */
+}
+body{
+    align-items: center;
+    background-color: rgb(211, 196, 177);
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0.538);
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    height: 100vh;
+}
+form{
+    box-shadow: rgb(218, 62, 62);
+    max-width: 100%;
+}
+input{
+    border:none ;
+    color:rgb(36, 36, 164) ;
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+.input::placeholder{
+    color: rgb(215, 6, 215);
+}
+.todos{
+    background-color: rgb(214, 214, 208);
+    padding:0px ;
+    margin: 0px;
+    list-style-type: none;
+}
+.todos li{
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-top: 1px solid rgb(171, 143, 143);
+    padding: 1rem 2rem;
+    /* opacity: 0.8; */
+}
+.todos li.completed{
+    color: rgb(172, 148, 148);
+    text-decoration: line-through;
+}
+small{
+margin-top: 3rem;
+color: rgb(57, 79, 103);
+text-align: center;
+}
